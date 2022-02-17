@@ -1,0 +1,46 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container 
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn
+{
+    border: 2px solid #41afb0;
+    width: 120px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    color: #41afb0;
+}
+
+.row
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col
+{
+    flex: 1;
+}
+
+.navbar
+{
+    background-color: rgb(73, 70, 70);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bordes_laterales
+{
+    border-right: 2px solid gray;
+    border-left: 2px solid gray; 
+}
